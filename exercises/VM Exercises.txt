@@ -1,0 +1,92 @@
+﻿1 VM Exercise
+
+
+Learning Objective:
+
+
+To be able to properly configure the join tool and select the type of join, keys to join on, and type of join. 
+
+
+Context:
+
+
+Learning how to join in Alteryx is crucial for data professionals and analysts as it enables seamless integration and consolidation of disparate datasets. By mastering the art of joining in Alteryx, individuals can efficiently combine information from various sources, ensuring a comprehensive and unified view of the data. This skill is particularly valuable in real-life situations where organizations deal with multiple databases, spreadsheets, or external data feeds. The ability to join datasets in Alteryx empowers users to overcome data silos, enhance data accuracy, and derive meaningful insights, ultimately contributing to informed decision-making and improved business outcomes.
+
+
+Steps to be executed by the student:
+
+
+1. Load the customers, orders, and order items table
+2. Inner join customers to orders
+3. Inner join of the table from step 2 to order items
+4. Provide a count of customers that have ordered more than 3 items
+
+
+
+
+Exercise Question:
+
+
+What is the final count of records of your data model?
+
+
+End goal:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+2nd VM Exercise
+
+
+Learning Objective:
+
+
+To be able to properly configure a left join
+
+
+Context:
+
+
+Mastering the left join in Alteryx is essential for data professionals seeking a comprehensive understanding of how to merge datasets based on a common key. This skill is particularly valuable in scenarios where maintaining all records from one dataset, and the matching records from another, is crucial for analysis. In real-life situations, a left join in Alteryx proves invaluable when dealing with datasets that might have missing or incomplete information. By preserving all data from the left dataset while aligning it with relevant information from the right dataset, analysts can ensure a more complete and nuanced perspective, leading to more accurate insights and informed decision-making.
+
+
+Steps to be executed by the student:
+
+
+1. Load the Stores, Orders, and order_items tables
+2. Filter the Orders table to orders after 04/15/2016 and join to the order_items tables
+3. Left or Right join to the Stores to get a full list of ALL stores and the associated orders
+4. Provide a count of order items for all stores (include 0s)
+
+
+
+
+Exercise Question:
+
+
+How many order items does store 2 have?
+
+
+End goal:
